@@ -25,10 +25,10 @@ All these factors affect the total cost of ownership and reduce the return on in
 			Traditional Environment														Cloud
 	1. Limited Scalability														1. Highly Scalable
 	2. High turn around time													2. Minimum turn around time
-	3. needs manual scaling which impacts performance							3. High performance due to automation
+	3. needs manual scaling which impacts performance										3. High performance due to automation
 	4. less cost effective														4. Highly cost effective
-	5. High maintenance overhead												5. Zero maintenance
-	6. poor resource utilization												6. maximum resource utilization
+	5. High maintenance overhead													5. Zero maintenance
+	6. poor resource utilization													6. maximum resource utilization
 	
 * Benefits of cloud computing:
 
@@ -56,16 +56,16 @@ All these factors affect the total cost of ownership and reduce the return on in
 
 	Deployment Model			Best Suited for				Advantages				Challenges
 	Public cloud				* Variable workload			* lowest TCO			* Data Security
-								* Test & Dev				* Faster deployment		* Privacy
-															* Rapid elasticity
+						* Test & Dev				* Faster deployment		* Privacy
+											* Rapid elasticity
 	
-	Private cloud				* Sensitive data			* Security and control	* High cost of ownership
-															* Optimized Performance
+	Private cloud				* Sensitive data			* Security and control		* High cost of ownership
+											* Optimized Performance
 	
 	Hybrid Cloud				* Cloud bursting			* lowest TCO			* Portability
-								* On demand accessed		* High Performance		* Migration
-								* Sensitive data			* Rapid elasticity
-															* high customizable
+						* On demand accessed			* High Performance		* Migration
+						* Sensitive data			* Rapid elasticity
+											* high customizable
 															
 * Cloud Service Models:
 
@@ -124,11 +124,11 @@ All these factors affect the total cost of ownership and reduce the return on in
 * Differences between containers and virtual machines:
 
 			Containers														Virtual Machines
-	1. Boots in milliseconds										1. Boots in minutes
-	2. Requires less resources such as memory, storage etc			2. Needs more resources
-	3. Higher isolation level										3. low isolation level
-	4. shares OS libraries and kernel								4. Doesn't share OS with the host machine
-	5. No hypervisior required										5. Requires a hypervisior
+	1. Boots in milliseconds												1. Boots in minutes
+	2. Requires less resources such as memory, storage etc									2. Needs more resources
+	3. Higher isolation level												3. low isolation level
+	4. shares OS libraries and kernel											4. Doesn't share OS with the host machine
+	5. No hypervisior required												5. Requires a hypervisior
 	
 * Continerization using Docker: Docker open source engine provides container run time to deploy applications. Both linux and windows based containers can be created using docker. Docker containers bundle all the dependencies the app requires to execute due to which the packaged application can run on any infrastructure consistently. you can build a custom docker image using docker container registry and use it to spin up containers. Continerization using docker can be performed through docker command line interface or the API. Docker file is a set of commands to install packages to build custom image.
 
