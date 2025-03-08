@@ -1,0 +1,163 @@
+* With the introduction of cloud computing,
+
+	1. IT infrastructure landscape is re-designed, giving rise to agility (ability to move quickly and easily) and application development.
+	
+	2. Cloud computing optimized the application development and deployment life cycle enabling high velocity app development allowed enterprises to focus more on business by minimizing it management overhead.
+	
+* Traditionally, IT infrastructure had been procured and positioned in a corporate data center which comprises of servers, cooling systems, cables for inter connection, network setuo and etc. placed in a physically secured environment. Cloud computing has redefined the way infrastructure landscape is designed.
+
+* Challenges in Traditional environment,
+
+	1. In the traditional environment, applications are hosted in the on-premise data center. Huge captial investment is required upfront to build a data center.
+	
+	2. Setting up infrastructure in the corporate data center takes time and effort.
+	
+	3. The enterprises need to upkkeep the infrastructure to deliver high performance to the clients. Which creates a maintenance overhead.
+	
+	4. Any variation from capacity forecast may lead to under or over utilization of resources and may result in cost.
+	
+All these factors affect the total cost of ownership and reduce the return on investment.
+
+* Gap between demand and supply of infrastructure is the main challenge when the application is deployed in the traditional environment. If the infrastructure is surplus (amount remained after usage), resources will be under utilized. During spiky traffic period, provisioned resources are insufficient leading to reduced return on investment in both the cases.
+
+* Differences between traditional environment and cloud are,
+
+			Traditional Environment														Cloud
+	1. Limited Scalability														1. Highly Scalable
+	2. High turn around time													2. Minimum turn around time
+	3. needs manual scaling which impacts performance							3. High performance due to automation
+	4. less cost effective														4. Highly cost effective
+	5. High maintenance overhead												5. Zero maintenance
+	6. poor resource utilization												6. maximum resource utilization
+	
+* Benefits of cloud computing:
+
+	1. lower captial expenditure and pay for only the capacity used.
+	
+	2. well desfined acess control mechanisms are provided at lower levels of granularity.
+	
+	3. Various encryption schemes provide security to the data stored in cloud.
+	
+	4. cloud resources can be accessed through internet from anywhere, anytime.
+	
+	5. It provides an agile environment, which can be highly automated and is supported by the service providers. Reducing human error and scale rapidly based on incoming traffic.
+	
+* Cloud Deployment Models: Cloud services are often delivered over the internet. Based on workload patterns and security requirements. Cloud resources can be deployed in any of the four models,
+
+	1. Public Cloud: Infrastructure is owned by the cloud service provides and services will be delivered over the internet. It offers multi-tenent infrastructure in which the physical infrastructure is shared between users. Nearly unlimited resources in public cloud environment allow high infrastructure scalability. Architectures resilient to infra failures can be created due to the availabilty if abundant (available in large quantities) resources. Maintenance of the infrastructure is taken care by the cloud service provider which brings additional benefit of lowering the total cost of ownership.
+	
+	2. Private Cloud: It is operated solely for an enterprise and infrastructure can exist on premise or off premise community. In case of managed private cloud from a cloud service provider, enterprise can customize the resources based on specific compliance and regulatory requirements. It is suitable deployment model if the enterprise has sensitive workloads and data for which security is paramount.
+	
+	3. Community Cloud: Infrastructure is managed for a subset of enterprises that share common security and compliance guidelines typically hosted outside organisations. Enterprises can collaborate with community cloud to carry out a common goal. Infrastructure governance is customized to the community requirements.
+	
+	4. Hybrid Cloud: Two or more cloud models are inter operated to form a hybrid cloud deployment. It provides benefit of both public and private clouds. Full Duplex communication (Simultaneously send and receive at both sender and reciever, both the send and receive at the same time) is possible between the apps hosted in public and private clouds. Sensisitve assets can be classified and hosted in private cloud with stringent security measures. Application running in private cloud can burst through to the public cloud to tap into additional computing resources during unanticipated spikes in the incoming traffic.
+	
+* Advantages and challenges for different cloud deployment models:
+
+	Deployment Model			Best Suited for				Advantages				Challenges
+	Public cloud				* Variable workload			* lowest TCO			* Data Security
+								* Test & Dev				* Faster deployment		* Privacy
+															* Rapid elasticity
+	
+	Private cloud				* Sensitive data			* Security and control	* High cost of ownership
+															* Optimized Performance
+	
+	Hybrid Cloud				* Cloud bursting			* lowest TCO			* Portability
+								* On demand accessed		* High Performance		* Migration
+								* Sensitive data			* Rapid elasticity
+															* high customizable
+															
+* Cloud Service Models:
+
+	1. Software as a Service (SaaS): It referes to application hosted in cloud platform and are available for public use. you can access the apps through web browser or mobile devices. you dont have any control or visibility over the backend infrastructure and you will be billed based on subscription.
+	Examples: Microsoft Office 365, Google apps, Microsoft teams, etc
+	
+	2. Platform as a Service (PaaS): Infrastructure and application runtime is setup by the cloud service provider. you will not have full control over the infrastructure as it is managed by the service provider. However, you have full control over code you upload and deploy.
+	Examples: AppCloud from Salesforce.com
+			  Google App Engine from google cloud platform
+			  Openshift from redhat
+			  Oracle cloud platform from oracle
+			  
+	3. Infrastructure as a Service (IaaS): You will get remote access to the virtualized cloud infrastructure on VM instances. you can configure the development environment remotely.
+	Examples: Amazon EC2 (Elastic Cloud Compute) from AWS
+			  Virtual machines from microsoft azure
+			  Google Compute Engine (GCE) from google cloud platform
+			  
+* In SaaS model, everything is managed by the CSP.
+  In PaaS model, Applications and data are only taken care by us. Rest are managed by CSP.
+  In IaaS model, Applications, data, runtime, middleware and OS are taken care by us. Rest like how virtualization happens, servers, storage, networking is taken care by CSP.
+  
+* Serverless Services: It allows you to focus on productive business requirements rather than IT infrastructure set up and management. You dont need to provision or manage the infrastructure to run your applications. Capacity provisioning, scaliability, patching OS, etc are managed by CSP. This reduces total cost of ownership and adds high availability and fault tolerance. It is also known as function as a Service. It allows you to handle several events in the application environment as and when invoked. It is inactive till an action is initiated on it. It executes for a short duration to handle the event that triggers its execution. As a result, you are charged for the duration of execution only. It is a cost effective option for handling asynchronous events.
+
+* Cost estimation while moving to a cloud service provider.
+
+	1. Identify your usage pattern in temrs of compute, storage and networking capabilities.
+	2. Identify variable costs like varying traffic on your applications results in cost variation, estimate the incoming traffic effectively to forecast the total cost more accurately.
+	3. Needed a skilled professional to monitor and administer your cloud based solution. So, may have to estimate the management cost.
+	4. May need to estimate the management cost transition form on-premise to cloud or rearchitect solutions, etc involves cost.
+	5.Business architecture would have differed while migrating into cloud prehaps to improve performance and cost.
+	
+* All cloud sercie providers offer per second billing for compute and per GB hour storage
+
+* Virtualization: It is a process of creating virtualized environments called as virtual machines from the same physical machine or a pool of physical resources. Each virtual machine has a guest operating system on it. Hypervisor manages these virtual machines by providing the necessary resources for each virtual machine. VM's offers an isolated environment to host application. It is broadly classified into two types based on the presence of operating system layer on the physical host. They are,
+
+	1. Type 1 or Bare metal Virtualization: Doesn't have an operating system on the host. Preferred for high performance and low latency.
+	Example: VMWare ESXI, KVM, etc.
+	
+	2. Type 2 or Hosted: They run on top of an operating system layer. Hosted hypervisors are a ggod choice if you need to perform administrative tasks for the VM's.
+	Example: Oracle VM, Virtual Box, VMWare Workstations, etc.
+	
+* Benefits of Virtualization:
+
+	1. With Virtualization, Infrastructure footprint will be reduced minimizing TCO.
+	2. It improves agility of software development process due to rapid provisioning capabilities of virtual machines.
+	3. virtual machines can be easily moved to different host in case of maintenance or failure of the primary host as a result downtime can be minimized.
+	
+* Containers: They offer lightweight runtime environment for deploying applications, containerized environmentscan be provisioned on top of hardware or over the virtual machines. Containers bundles the application and all its dependencies along with its configuration in a single image. Containers use the components of the kernel from the host operating system. In order to provide deployment environment for the apps to run.
+
+* Benefits of containers:
+
+	1. Containers can scale rapidly as their boot up time is about a few milli seconds.
+	2. Containers are highlt portable and can run on any infrastructure.
+	3. Greater efficiency is achieved as fewer resource are needed to spin up a container.
+	
+* Differences between containers and virtual machines:
+
+			Containers														Virtual Machines
+	1. Boots in milliseconds										1. Boots in minutes
+	2. Requires less resources such as memory, storage etc			2. Needs more resources
+	3. Higher isolation level										3. low isolation level
+	4. shares OS libraries and kernel								4. Doesn't share OS with the host machine
+	5. No hypervisior required										5. Requires a hypervisior
+	
+* Continerization using Docker: Docker open source engine provides container run time to deploy applications. Both linux and windows based containers can be created using docker. Docker containers bundle all the dependencies the app requires to execute due to which the packaged application can run on any infrastructure consistently. you can build a custom docker image using docker container registry and use it to spin up containers. Continerization using docker can be performed through docker command line interface or the API. Docker file is a set of commands to install packages to build custom image.
+
+* Container Orchestration: It automates deployment, scaling, networking of containers and other management activities. It integrates well with CI/CD pipelines. Container orchestration engine ensures that the faulty containers are replaced as a result. High availability of infrastructure and application is insured. Container Orchestration also manages the load balancing and routing of traffic to the application container. Container orchestration platform supports encryption techniques to secure interaction amnong different containers.
+Examples: Docker swarm, Kubernetes, Apache mesos, Amazon EKS, GKE, etc.
+
+* Cloud native application development: Cloud native application developement approach entails developing, refactoring and deploying apps by leveraging well established techniques of cloud computing. Cloud native build comprises use of microservices based architecture, leveraging the concepts of devops and agile development. Software development process is automated through the use of continuous integration and continuous delivery. Containers are the basic unit of deployment in cloud native development.
+
+* Cloud Migration: Migration from on-premise to cloud typically happens in three stages. They are,
+
+	1. Discovery: It is required to understand current infrastructure landscapes such as hardware, platform, storage, network, etc. We will be able to identify the all the applications that are running on different servers in on-premise. All the information collected here is curicial in choosing migration strategy.
+	
+	2. Assessment: It is performed to identify servers inventory, identify the architecture of on-premise infrastructure, identify application portfolio and associated dependencies. TCO analysis is performed to understand approximate cost benefit associated with migration to cloud. Under this migration readiness assessment is also performed.
+	
+	3. Migration: They are different strategies used here. They are,
+	
+		a. Re-host: Lift and shift strategy is used. No changes in architecture. This can be achieved quickly and the overall cost of ownership can be reduced.
+		b. Re-platform: Lift, Tinker and shift is used. It involves few optimizations to take advantages of the cloud environment.
+		c. Re-factor: It involves signigicant changes to the application while migrating.
+		d. Re-architect or Re-build: Reimaging the entire application in order to enrich user experience with additional features. Improves usability, reliability, extensibility and availability.
+		e. Retire: Application is retired if another cost effective solution is readily available or there is no ROI.
+		f. Retain: Application is retained in the on-premise environment. If it is not priortixed for migration.
+		
+* Cloud Security: Cloud Security is a shared responsibility model.
+
+	1. Responsibilites of cloud vendor:
+		a. Security of global infrastructure
+		b. network and software for managing the cloud
+	2. Responsibilities of customer:
+		a. access control
+		b. security of data that is stored and in-transition
+		c. firewall configuration.

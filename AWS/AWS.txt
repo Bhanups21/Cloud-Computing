@@ -1,0 +1,17 @@
+* Amazon Web Services is a collection of remote computing services (also called web services) that together make up a cloud computing platform, offered over the Internet on a pay per use pricing model.
+
+* AWS Region: A region is location where AWS has cluster of data centers.
+
+* AWS Availability Zone: An availability zone is cluster of data centers within a region that are fault-tolerant.
+
+* AWS Points of Presence: These are consisting of cache servers used to provide content to the customers with low latency.
+
+* EC2: It standds for Elastic Cloud Compute. It provides scalable computing capacity.
+
+	Features:
+	
+	1. Amazon Machine Images: It is a template that defines the operating system and additional applications for your servers.This helps you quickly launch servers that have your custom applications. AWS provides many images, community images are also available. You can also create your own amazon machine image.
+	
+	2. Instance types: This defines CPU, storage, ram and networking performance of your EC2 instance. We can select the one that is appropriate to our application that we are going to run on EC2.
+	
+	3. Key pairs: It is used to connect to EC2 instances remotely using SSH. One key pair has two keys, public key which is stored in Cloud and private key is given to us. Only by having this key you can access the EC2 instances.
